@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 1000px;
+    background-color: tan;
+}
+
+
+#main {
+    overflow: auto;
+    padding-bottom:100px;
+}
+
+#footer {
+    background-color: rgb(128, 0, 30);
+    position: relative;
+    height: 60px;
+    clear: both;
+    }
+
+h5 {
+    color: gold;
+    float: left;
+    margin:20px;
+    padding: 0px;
+    }
+
+h6 { 
+    color: gold;
+    
+    display:grid;
+    padding:5px;
+    bottom:50px;
+    justify-content: center;
+
+}
+
