@@ -1,0 +1,173 @@
+@import "header.css";
+@import "footer.css";
+@import "responsive.css";
+ 
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+strong h2 {
+    text-align: left;
+}
+
+
+h2 { 
+    text-align: center;
+    padding:10px;
+
+}
+
+strong h4 {
+    color: black;
+    float:none;
+    padding: 8px;
+} 
+
+h4 {
+    color:rgb(6, 6, 90);
+    text-decoration: underline;
+    
+}
+
+li h3{
+    text-align:initial;
+    padding: 10px;
+}
+
+.article, section {
+
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: tan;
+}
+
+.box {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 200px; 
+    
+}
+
+.dubai {
+    width: 450px;
+    height: 350px;
+    border: 1px solid black;
+    margin:10px;
+    background-image: url(https://th.bing.com/th/id/R.ce24e3044008d8966046f47b7439c806?rik=eHzqdrfD7D2gYw&riu=http%3a%2f%2fourvagabondstories.com%2fwp-content%2fuploads%2f2017%2f09%2fburj-khalifa.jpg&ehk=jVms9mZ85DCfxIRAe2cjOQ8TQC3xbx7UM5rUqoZqSDo%3d&risl=&pid=ImgRaw&r=0);
+    background-size:cover;
+    
+}
+
+.trip {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.singapore {
+    width: 450px;
+    height: 290px;
+    border: 1px solid black;
+    margin:10px;
+    background-image: url(https://th.bing.com/th/id/OIP.jnHQyI5yHOkwjeOG7Lty6wHaEK?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+
+}
+
+.maldives {
+    width: 450px;
+    height: 290px;
+    border: 1px solid black;
+    margin:10px;
+    background-image: url(https://th.bing.com/th/id/OIP.ZIMZvy0v6sAuDgM9RXSL2wHaFj?w=245&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+
+}
+
+.bora {
+    
+    width: 450px;
+    height: 290px;
+    border: 1px solid black;
+    margin:10px;
+    background-image: url(https://th.bing.com/th/id/OIP.cZ6TBe3LhMq2epYfOYYFmwHaFj?w=280&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size:cover;
+}
+
+.paris {
+    width: 450px;
+    height: 290px;
+    border: 1px solid black;
+    margin:10px;
+    background-image: url(https://th.bing.com/th/id/OIP.f2CFK18wjQdlJs6CdAJcyQHaIk?w=214&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+}
+
+.about {
+    display: table;
+    width: 250px;
+    height:300px;
+    
+}
+
+.about img {
+    
+    height:250px;
+    padding-top: 20px;
+    object-position: 0px 0px;
+    
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.about li {
+    list-style-type: none;
+}
+
+.subscribe {
+    display:grid;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    position:relative;
+    
+}
+
+.subscribe form {
+    width:300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: lightseagreen;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
