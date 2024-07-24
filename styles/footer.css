@@ -19,22 +19,20 @@ html, body {
     position: relative;
     height: 60px;
     clear: both;
-    }
+}
 
 h5 {
     color: gold;
     float: left;
     margin:20px;
     padding: 0px;
-    }
+}
 
 h6 { 
     color: gold;
-    
     display:grid;
     padding:5px;
     bottom:50px;
     justify-content: center;
-
 }
 
